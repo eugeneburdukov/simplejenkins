@@ -12,7 +12,7 @@ public class MainTest extends Main{
     @Test
     public void doSecondFactorialTest() {
         Main main = new Main();
-        int result = doFactorial(2);
-        Assert.assertEquals(result, 2);
+        int result = doFactorial(3);
+        Assert.assertEquals(result, 6);
     }
 }
