@@ -19,7 +19,7 @@ public class MainTest extends Main {
     @Test
     public void doThirdFactorialTest() {
         Main main = new Main();
-        int result = doFactorial(23);
-        Assert.assertEquals(result, 2);
+        int result = doFactorial(1);
+        Assert.assertEquals(result, 10);
     }
 }
