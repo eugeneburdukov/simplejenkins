@@ -15,4 +15,11 @@ public class MainTest extends Main{
         int result = doFactorial(2);
         Assert.assertEquals(result, 2);
     }
+    
+        @Test
+    public void doThirdFactorialTest() {
+        Main main = new Main();
+        int result = doFactorial(23);
+        Assert.assertEquals(result, 2);
+    }
 }
