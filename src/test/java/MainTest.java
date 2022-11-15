@@ -8,6 +8,7 @@ public class MainTest extends Main{
         int result = doFactorial(5);
         Assert.assertEquals(result, 120);
     }
+
     @Test
     public void doSecondFactorialTest() {
         Main main = new Main();
