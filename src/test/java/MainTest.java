@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainTest extends Main{
+public class MainTest extends Main {
     @Test
     public void doFirstFactorialTest() {
         Main main = new Main();
@@ -15,8 +15,8 @@ public class MainTest extends Main{
         int result = doFactorial(2);
         Assert.assertEquals(result, 2);
     }
-    
-        @Test
+
+    @Test
     public void doThirdFactorialTest() {
         Main main = new Main();
         int result = doFactorial(23);
