@@ -12,6 +12,6 @@ public class MainTest extends Main{
     public void doSecondFactorialTest() {
         Main main = new Main();
         int result = doFactorial(4);
-        Assert.assertEquals(result, 123);
+        Assert.assertEquals(result, 24);
     }
 }
